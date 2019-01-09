@@ -1,11 +1,14 @@
 Programa: es un software constituido por instrucciones descritas por un programador a traves de un lenguaje determinado
 de programacion.
-PROCESAMIENTO DE DATOS: Es la Tï¿½cnica que consiste en la recolecciï¿½n de los datos primarios de entrada, que son evaluados
+
+PROCESAMIENTO DE DATOS: Es la Técnica que consiste en la recolección de los datos primarios de entrada, que son evaluados
 y ordenados.
 
 Tipos de PdD
 Orden: organnizacion en un orden prefijado.
+Registros: 
 Duplicacion: 
+Verificacion: 
 Resumenes: 
 
 
