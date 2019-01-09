@@ -1,0 +1,33 @@
+Programa: es un software constituido por instrucciones descritas por un programador a traves de un lenguaje determinado
+de programacion.
+
+PROCESAMIENTO DE DATOS: Es la Técnica que consiste en la recolección de los datos primarios de entrada, que son evaluados
+y ordenados.
+
+Tipos de PdD
+Orden: organnizacion en un orden prefijado.
+Registros: 
+Duplicacion: 
+Verificacion: 
+Resumenes: 
+
+Archivo: es aquel que contiene informaciones binaria dentro de este.
+Registro: conjunto de campos que se encuentran dentro del archivo.
+
+tipos de un archivo: 
++Archivos de entrada
++Situacion
++Constante
++Historicos
++De movimiento
++Ascii
++Binario
++Direcctos
++Secuenciales
++Indices
+
+Partes de un archivo
+-nombre
+-extension
+-descripcion
+ 
