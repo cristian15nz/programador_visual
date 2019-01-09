@@ -1,0 +1,8 @@
+Programa Informático: Es un conjunto de software compuesto de instrucciones e interpretado por maquinas capaz de realizar de manera ordenada y simultanea tareas específicas programadas o en tiempo real por usuarios.
+
+ASCII: Es la representacion gráfica de los caracteres del teclado tales como números, letras y simbolos en decimal. 
+
+Archivo: Es un conjunto de registros o datos.
+
+Registros: Son un conjunto de campos relacionados.
+
