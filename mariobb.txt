@@ -11,4 +11,23 @@ Duplicacion:
 Verificacion: 
 Resumenes: 
 
+Archivo: es aquel que contiene informaciones binaria dentro de este.
+Registro: conjunto de campos que se encuentran dentro del archivo.
 
+tipos de un archivo: 
++Archivos de entrada
++Situacion
++Constante
++Historicos
++De movimiento
++Ascii
++Binario
++Direcctos
++Secuenciales
++Indices
+
+Partes de un archivo
+-nombre
+-extension
+-descripcion
+ 
