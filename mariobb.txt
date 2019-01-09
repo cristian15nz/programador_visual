@@ -1,1 +1,11 @@
-its mario timee
+Programa: es un software constituido por instrucciones descritas por un programador a traves de un lenguaje determinado
+de programacion.
+PROCESAMIENTO DE DATOS: Es la T�cnica que consiste en la recolecci�n de los datos primarios de entrada, que son evaluados
+y ordenados.
+
+Tipos de PdD
+Orden: organnizacion en un orden prefijado.
+Duplicacion: 
+Resumenes: 
+
+
