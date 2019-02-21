@@ -1,0 +1,9 @@
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\bin\Debug\ProyectoCristian.exe.config
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.csprojResolveAssemblyReference.cache
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Form1.resources
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Properties.Resources.resources
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.csproj.GenerateResource.Cache
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\bin\Debug\ProyectoCristian.exe
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\bin\Debug\ProyectoCristian.pdb
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.exe
+c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.pdb
