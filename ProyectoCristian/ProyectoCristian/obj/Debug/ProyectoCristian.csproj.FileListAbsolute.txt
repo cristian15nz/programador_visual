@@ -7,3 +7,15 @@ c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\Proyect
 c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\bin\Debug\ProyectoCristian.pdb
 c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.exe
 c:\users\profesor\documents\visual studio 2013\Projects\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.pdb
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\bin\Debug\ProyectoCristian.exe.config
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.exe
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.pdb
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\bin\Debug\ProyectoCristian.exe
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\bin\Debug\ProyectoCristian.pdb
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.csprojResolveAssemblyReference.cache
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Inicio.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Properties.Resources.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.csproj.GenerateResource.Cache
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.DiaSemana.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.ExpresionesOperadores.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Calculadora.resources
