@@ -51,6 +51,7 @@
             this.textBox1.Location = new System.Drawing.Point(21, 19);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(230, 61);
             this.textBox1.TabIndex = 0;
             // 
@@ -226,6 +227,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.KeyPreview = true;
             this.Name = "Calculadora";
             this.Text = "Calculadora";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Calculadora_KeyPress);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace ProyectoCristian
 {
@@ -99,7 +100,67 @@ namespace ProyectoCristian
 
         private void Calculadora_KeyUp(object sender, KeyEventArgs e)
         {
-            
+            // Mostrar por consola de programador el valor de la tecla presionada
+            Trace.WriteLine("La tecla presionada es: " + e.KeyValue);
+
+            /*
+            if (e.KeyValue == 96) // 0
+            {
+                textBox1.Text = textBox1.Text + "0";
+            } 
+            else if (e.KeyValue == 97) // 1
+            {
+                textBox1.Text = textBox1.Text + "1";
+            }
+            else if (e.KeyValue == 98) // 2
+            {
+                textBox1.Text = textBox1.Text + "2";
+            }
+            else if (e.KeyValue == 99) // 3
+            {
+                textBox1.Text = textBox1.Text + "3";
+            }
+            else if (e.KeyValue == 100) // 4
+            {
+                textBox1.Text = textBox1.Text + "4";
+            }
+            else if (e.KeyValue == 101) // 5
+            {
+                textBox1.Text = textBox1.Text + "5";
+            }
+            else if (e.KeyValue == 102) // 6
+            {
+                textBox1.Text = textBox1.Text + "6";
+            }
+            else if (e.KeyValue == 103) // 7
+            {
+                textBox1.Text = textBox1.Text + "7";
+            }
+            else if (e.KeyValue == 104) // 8
+            {
+                textBox1.Text = textBox1.Text + "8";
+            }
+            else if (e.KeyValue == 105) // 9
+            {
+                textBox1.Text = "";
+            }
+            */
+
+            // Switch
+            switch(e.KeyValue)
+            {
+                case 96: // 0
+                    textBox1.Text = textBox1.Text + "0";
+                    break;
+                case 97: // 1
+                    textBox1.Text = textBox1.Text + "1";
+                    break;
+                default:  // Por defecto se ejecuta esto;
+                    // Codigo
+                    break;
+
+            }
         }
+
     }
 }
