@@ -50,6 +50,12 @@
     <Compile Include="Calculadora.Designer.cs">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ciclos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ciclos.Designer.cs">
+      <DependentUpon>Ciclos.cs</DependentUpon>
+    </Compile>
     <Compile Include="DiaSemana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ciclos.resx">
+      <DependentUpon>Ciclos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DiaSemana.resx">
       <DependentUpon>DiaSemana.cs</DependentUpon>

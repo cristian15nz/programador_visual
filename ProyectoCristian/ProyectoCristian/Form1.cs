@@ -36,5 +36,10 @@ namespace ProyectoCristian
         {
             new Calculadora().Show();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            new Ciclos().Show();
+        }
     }
 }

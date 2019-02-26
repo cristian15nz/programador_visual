@@ -19,3 +19,4 @@ C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoC
 C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.DiaSemana.resources
 C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.ExpresionesOperadores.resources
 C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Calculadora.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Ciclos.resources
