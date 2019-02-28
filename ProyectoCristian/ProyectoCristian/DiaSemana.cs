@@ -48,6 +48,47 @@ namespace ProyectoCristian
 
         private void btnVer_Click(object sender, EventArgs e)
         {
+            // Validar que el usuario no digite un texto vacio
+            if (String.IsNullOrWhiteSpace(textBox1.Text))
+            {
+                MessageBox.Show("Debe digitar un texto");
+                return;
+            }
+
+            // Listado de dias
+            string[] dias = {"Domingo",   // Indice: 0
+                             "Lunes",     // Indice: 1
+                             "Martes",    // Indice: 2
+                             "Miércoles", // Indice: 3
+                             "Jueves",    // Indice: 4
+                             "Viernes",   // Indice: 5
+                             "Sábado",    // Indice: 6
+                             "Numero de dias nuevo"
+                            };
+
+            // Numero digitado por el usuario
+            byte diaDigitado = Convert.ToByte(textBox1.Text);
+            
+            // Mostrar el dia digitado
+            MessageBox.Show( dias[diaDigitado] );
+
+            return;
+
+            /*
+            MessageBox.Show("El array posee " + dias.Length + " elementos");
+
+            // MessageBox.Show( dias[8] );
+            for (int day = 0; day < 7; day++)
+            {
+                MessageBox.Show(dias[day]);
+            }
+
+            MessageBox.Show(dias[100]);
+            */
+
+
+                return;
+
             // Obtener el dia digitado
             byte dia = Convert.ToByte(textBox1.Text);
 
@@ -113,13 +154,7 @@ namespace ProyectoCristian
 
         private void DiaSemana_Load(object sender, EventArgs e)
         {
-            // mostrarMensaje();
-            saludar("Capellan");
-            saludar("Cristian");
-            saludar("Yahaira");
-
-            // Sumar dos numeros
-            sumar(10, 3);
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -132,6 +167,32 @@ namespace ProyectoCristian
             string genero_persona = textBox3.Text;
 
             verificarGenero(genero_persona);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Listado de dias
+            string[] dias = {"Domingo",   // Indice: 0
+                             "Lunes",     // Indice: 1
+                             "Martes",    // Indice: 2
+                             "Miércoles", // Indice: 3
+                             "Jueves",    // Indice: 4
+                             "Viernes",   // Indice: 5
+                             "Sábado"    // Indice: 6
+                            };
+
+            // Foreach
+            foreach (string dia in dias)
+            {
+                label4.Text += "\n" + dia;
+            }
+
+            // For
+            for (int posicion = 0; posicion < 7; posicion++ )
+            {
+                label4.Text += "\n" + dias[posicion];
+            }
+
         }
     }
 }

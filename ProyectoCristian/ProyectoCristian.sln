@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoCristian", "ProyectoCristian\ProyectoCristian.csproj", "{0CAD0822-556C-45B3-8546-67E00989DB47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUpkeep", "T:\Cristian Nunez\snmcristian-upkeep-46da2fdabb6e\AppUpkeep\AppUpkeep\AppUpkeep.csproj", "{365A5E53-51EB-4CF1-82AD-12DCB6760112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assets", "T:\Cristian Nunez\snmcristian-upkeep-46da2fdabb6e\AppUpkeep\Assets\Assets.csproj", "{C3FA93A3-55F0-4A49-BE04-9F69B2915915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0CAD0822-556C-45B3-8546-67E00989DB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CAD0822-556C-45B3-8546-67E00989DB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CAD0822-556C-45B3-8546-67E00989DB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365A5E53-51EB-4CF1-82AD-12DCB6760112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365A5E53-51EB-4CF1-82AD-12DCB6760112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365A5E53-51EB-4CF1-82AD-12DCB6760112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365A5E53-51EB-4CF1-82AD-12DCB6760112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FA93A3-55F0-4A49-BE04-9F69B2915915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FA93A3-55F0-4A49-BE04-9F69B2915915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FA93A3-55F0-4A49-BE04-9F69B2915915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FA93A3-55F0-4A49-BE04-9F69B2915915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
