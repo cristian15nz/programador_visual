@@ -41,5 +41,10 @@ namespace ProyectoCristian
         {
             new Ciclos().Show();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            new NuevosControles().Show();
+        }
     }
 }

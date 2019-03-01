@@ -281,10 +281,11 @@
             this.button16.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.button16.Location = new System.Drawing.Point(337, 329);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(95, 40);
+            this.button16.Size = new System.Drawing.Size(148, 40);
             this.button16.TabIndex = 19;
-            this.button16.Text = "Opcion";
+            this.button16.Text = "Nuevos Controles";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // Inicio
             // 
