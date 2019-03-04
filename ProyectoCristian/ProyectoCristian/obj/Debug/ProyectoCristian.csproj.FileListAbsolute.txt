@@ -21,3 +21,4 @@ C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoC
 C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Calculadora.resources
 C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Ciclos.resources
 C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.NuevosControles.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Debug\ProyectoCristian.Registro.resources

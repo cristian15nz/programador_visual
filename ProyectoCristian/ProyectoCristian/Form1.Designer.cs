@@ -208,8 +208,9 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(95, 40);
             this.button10.TabIndex = 13;
-            this.button10.Text = "Opcion";
+            this.button10.Text = "Registro";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 

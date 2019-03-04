@@ -62,5 +62,44 @@ namespace ProyectoCristian
                 MessageBox.Show("Completado");
             }
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(textBox1.Text);
+        }
+
+        private void tabPage7_Click(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("Chinola");
+            comboBox1.Items.Add("Naranja");
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int indice = comboBox1.SelectedIndex;
+            label5.Text = indice.ToString();
+        }
+
+        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show(comboBox1.SelectedItem.ToString());
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            // Guardar en una variable el texto
+            string texto = txtItem.Text;
+
+            // Agregar el texto al ListBox, al ComboBox y al CheckListBox
+            listBox1.Items.Add(texto);
+            comboBox1.Items.Add(texto);
+            checkedListBox1.Items.Add(texto);
+            
+        }
     }
 }

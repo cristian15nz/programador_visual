@@ -46,5 +46,10 @@ namespace ProyectoCristian
         {
             new NuevosControles().Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            new Registro().Show();
+        }
     }
 }
