@@ -62,6 +62,9 @@
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.buttonMostrarUsuarios = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -333,11 +336,32 @@
             // 
             this.columnHeader9.Text = "Estado";
             // 
+            // buttonMostrarUsuarios
+            // 
+            this.buttonMostrarUsuarios.Location = new System.Drawing.Point(239, 349);
+            this.buttonMostrarUsuarios.Name = "buttonMostrarUsuarios";
+            this.buttonMostrarUsuarios.Size = new System.Drawing.Size(166, 47);
+            this.buttonMostrarUsuarios.TabIndex = 24;
+            this.buttonMostrarUsuarios.Text = "Mostrar usuarios registrados";
+            this.buttonMostrarUsuarios.UseVisualStyleBackColor = true;
+            this.buttonMostrarUsuarios.Click += new System.EventHandler(this.buttonMostrarUsuarios_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(505, 152);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(549, 150);
+            this.dataGridView1.TabIndex = 25;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1187, 453);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.buttonMostrarUsuarios);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -365,6 +389,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Registro";
             this.Text = "Registro";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -406,5 +431,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.Button buttonMostrarUsuarios;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

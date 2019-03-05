@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ProyectoCristian
 {
@@ -31,11 +32,10 @@ namespace ProyectoCristian
             bool genero = radioButton1.Checked;
             bool terminos = checkBox1.Checked;
 
-
             //int pais = comboBox1.SelectedIndex;
             //int estado = comboBox2.SelectedIndex;
-            string pais = comboBox1.SelectedItem.ToString();
-            string estado = comboBox2.SelectedItem.ToString();
+            string pais = comboBox1.SelectedIndex.ToString();
+            string estado = comboBox2.SelectedIndex.ToString();
 
             // Validar datos
 
@@ -56,6 +56,127 @@ namespace ProyectoCristian
 
             // Agregar la columna al ListView
             listView1.Items.Add(columna);
+
+            // Preparar el insert
+            var string_conexion = "server=localhost; user id=cristian; password=123; database=proyecto_c# ";
+            var conexion = new MySqlConnection(string_conexion);
+
+            conexion.Open();
+
+            var sql = "INSERT INTO usuarios(id, nombre, apellido, usuario) VALUES(1, '"+nombre+"', '"+apellido+"', '"+usuario+"') ";
+
+            insertarDatos(sql, conexion);
+        }
+
+        private void baseDeDatos()
+        {
+            MySqlConnection conexion = null;
+
+            try
+            {
+                // Preparar la conexion
+                conexion = new MySqlConnection("server=localhost; user id=root; password=; database=proyecto_c#;");
+                conexion.Open();
+            } 
+            catch(MySqlException exception) 
+            {
+                // Mostrar mensaje de error
+                MessageBox.Show("Error al conectarse: \n\n" + exception.Message);
+            }
+
+            // Preparar el query
+            var sql = "SELECT * FROM usuarios";
+
+            // Preparar el adaptador para ejecutar el query
+            var adapter = new MySqlDataAdapter(sql, conexion);
+
+            // Almacenar los datos resultantes en el DataSet
+            var datos = new DataSet();
+            adapter.Fill(datos);
+
+            // Obtener la primera tabla
+            var tabla = datos.Tables[0];
+
+            // Mostrar los datos en el DataGridView
+            dataGridView1.DataSource = tabla;
+
+            conexion.Close();
+        }
+
+        private void __insertarDatos(string sql, MySqlConnection conexion)
+        {
+            try {
+                // Preparar el comando para ejecutar el query
+                var comando = new MySqlCommand(sql, conexion);
+                comando.ExecuteNonQuery();
+
+                // Almacenar los datos resultantes en el DataSet
+                var datos = new DataSet();
+
+                MessageBox.Show("Datos guardados");
+            }
+            catch(MySqlException exception) {
+                MessageBox.Show("Error al insertar: \n\n" + exception);
+            }
+        }
+
+        private void buttonMostrarUsuarios_Click(object sender, EventArgs e)
+        {
+            // Conexion a la base de datos
+            try
+            {
+                var string_conexion = "server=localhost; user id=cristian; password=123; database=proyecto_c# ";
+                var conexion = new MySqlConnection(string_conexion);
+
+                conexion.Open();
+
+                var sql = "SELECT * FROM usuarios";
+                seleccionarDatos(sql, conexion);
+
+            } 
+            catch(MySqlException error)
+            {
+                MessageBox.Show("Error conexion: \n\n " + error.Message);
+            }
+        }
+
+        private void seleccionarDatos(string sql, MySqlConnection conexion)
+        {
+            try
+            {
+                var adaptador = new MySqlDataAdapter(sql, conexion);
+
+                // Almacenar los datos
+                var datos = new DataSet();
+
+                adaptador.Fill(datos);
+
+                // Mostrar los datos en el dataGridView
+                dataGridView1.DataSource = datos.Tables[0];
+
+            } catch(MySqlException error)
+            {
+                MessageBox.Show("Error en select: \n\n" + error.Message);
+            }
+        }
+
+        private void insertarDatos(string sql, MySqlConnection conexion)
+        {
+            try
+            {
+                var comando = new MySqlCommand(sql, conexion);
+
+                var insertado = comando.ExecuteNonQuery();
+
+                if (insertado > 0)
+                {
+                    MessageBox.Show("Datos insertados");
+                }
+            }
+            catch(MySqlException error)
+            {
+                MessageBox.Show("Error en el insert: \n\n" + error.Message);
+            }
         }
     }
 }
