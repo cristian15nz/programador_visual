@@ -1,0 +1,15 @@
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\bin\Release\ProyectoCristian.exe.config
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\bin\Release\ProyectoCristian.exe
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\bin\Release\ProyectoCristian.pdb
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.csprojResolveAssemblyReference.cache
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.Calculadora.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.Ciclos.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.DiaSemana.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.ExpresionesOperadores.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.Inicio.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.NuevosControles.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.Properties.Resources.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.Registro.resources
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.csproj.GenerateResource.Cache
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.exe
+C:\Users\profesor\Documents\GitHub\programador_visual\ProyectoCristian\ProyectoCristian\obj\Release\ProyectoCristian.pdb

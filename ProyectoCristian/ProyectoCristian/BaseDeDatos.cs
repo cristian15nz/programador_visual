@@ -8,5 +8,6 @@ namespace ProyectoCristian
 {
     class BaseDeDatos
     {
+
     }
 }

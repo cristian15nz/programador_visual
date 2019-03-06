@@ -58,14 +58,30 @@ namespace ProyectoCristian
             listView1.Items.Add(columna);
 
             // Preparar el insert
+            //var string_conexion = "server=localhost; user id=cristian; password=123; database=proyecto_c# ";
+            //var conexion = new MySqlConnection(string_conexion);
+
+            //conexion.Open();
+
+            //var sql = "INSERT INTO usuarios(id, nombre, apellido, usuario) VALUES(1, '" + nombre + "', '" + apellido + "', '" + usuario + "') ";
+
+            //insertarDatos(sql, conexion);
+
+            /*Guardar en la base de datos */
+            //var sql = "INSERT INTO usuarios(campos,de,la) VALUES ("","","","")";
+            //var sql2 = "INSERT INTO usuarios(campos,de,la) VALUES ('"+nombre+"','','','')";
+            var sql3 = "INSERT INTO usuarios(nombre, apellido, usuario) VALUES (\"{0}\",\"{1}\",\"{2}\")";
+
+            var query = String.Format(sql3, nombre, apellido, usuario);
+             
+            // Insertarlo en la base de datos
             var string_conexion = "server=localhost; user id=cristian; password=123; database=proyecto_c# ";
             var conexion = new MySqlConnection(string_conexion);
-
             conexion.Open();
 
-            var sql = "INSERT INTO usuarios(id, nombre, apellido, usuario) VALUES(1, '"+nombre+"', '"+apellido+"', '"+usuario+"') ";
+            insertarDatos(query, conexion);
 
-            insertarDatos(sql, conexion);
+            
         }
 
         private void baseDeDatos()
@@ -77,15 +93,16 @@ namespace ProyectoCristian
                 // Preparar la conexion
                 conexion = new MySqlConnection("server=localhost; user id=root; password=; database=proyecto_c#;");
                 conexion.Open();
-            } 
-            catch(MySqlException exception) 
+            }
+            catch (MySqlException exception)
             {
                 // Mostrar mensaje de error
                 MessageBox.Show("Error al conectarse: \n\n" + exception.Message);
             }
 
             // Preparar el query
-            var sql = "SELECT * FROM usuarios";
+            // var sql = "SELECT * FROM usuarios";
+            var sql = String.Format("SELECT {0} FROM {1}", "*", "usuarios");
 
             // Preparar el adaptador para ejecutar el query
             var adapter = new MySqlDataAdapter(sql, conexion);
@@ -105,7 +122,8 @@ namespace ProyectoCristian
 
         private void __insertarDatos(string sql, MySqlConnection conexion)
         {
-            try {
+            try
+            {
                 // Preparar el comando para ejecutar el query
                 var comando = new MySqlCommand(sql, conexion);
                 comando.ExecuteNonQuery();
@@ -115,7 +133,8 @@ namespace ProyectoCristian
 
                 MessageBox.Show("Datos guardados");
             }
-            catch(MySqlException exception) {
+            catch (MySqlException exception)
+            {
                 MessageBox.Show("Error al insertar: \n\n" + exception);
             }
         }
@@ -133,8 +152,8 @@ namespace ProyectoCristian
                 var sql = "SELECT * FROM usuarios";
                 seleccionarDatos(sql, conexion);
 
-            } 
-            catch(MySqlException error)
+            }
+            catch (MySqlException error)
             {
                 MessageBox.Show("Error conexion: \n\n " + error.Message);
             }
@@ -154,12 +173,14 @@ namespace ProyectoCristian
                 // Mostrar los datos en el dataGridView
                 dataGridView1.DataSource = datos.Tables[0];
 
-            } catch(MySqlException error)
+            }
+            catch (MySqlException error)
             {
                 MessageBox.Show("Error en select: \n\n" + error.Message);
             }
         }
 
+        // Insertar datos
         private void insertarDatos(string sql, MySqlConnection conexion)
         {
             try
@@ -173,10 +194,22 @@ namespace ProyectoCristian
                     MessageBox.Show("Datos insertados");
                 }
             }
-            catch(MySqlException error)
+            catch (MySqlException error)
             {
                 MessageBox.Show("Error en el insert: \n\n" + error.Message);
             }
+        }
+
+        // Borrrar datos
+        private void borrarDatos(string sql, MySqlConnection conexion)
+        {
+            // 
+        }
+
+        // Actualizar
+        private void actualizarDatos(string sql, MySqlConnection conexion)
+        {
+            // 
         }
     }
 }
